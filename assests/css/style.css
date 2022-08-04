@@ -1,0 +1,284 @@
+img{
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+/* .navbar{
+  height: 30px;
+}
+
+.menu-item{
+  padding: 10px!important;
+} */
+
+/* hero section images */
+/* .hero-image {
+  background-image: linear-gradient(180deg, rgba(27, 32, 43, 0.3), #1B202B), url("../img/Galaxy-TV-4K-Nepal.jpg");
+
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+} */
+
+
+
+
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+
+.network-images{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* testimonial section */
+
+.testimonial-section{
+    background-color: #ffffff;
+    /* padding: 20px 0; */
+    min-height: 60vh;
+  }
+  .testi-img .img-box{
+    max-width: 200px;
+    margin:auto;
+    text-align: center;
+    position: relative;
+  }
+  .testi-img .circle{
+    height: 200px;
+    width: 200px;
+    background-color: #fb9c9a;
+    position: absolute;
+    border-radius: 20%;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s ease;
+  }
+  .testi-img .img-box-inner{
+    position: relative;
+    border-radius: 0 0 100px 100px;
+    overflow:hidden;
+  }
+  .testi-img .img-box-inner img{
+    max-width: 210px;
+  }
+  .testimonial-section .carousel-inner{
+    margin-bottom: 10px;
+  }
+  .testimonial-section .carousel-control-prev{
+    margin-right: 10px;
+  }
+  .testimonial-section .carousel-control-next, 
+  .testimonial-section .carousel-control-prev{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background-color: #fb9c9a;   
+    display: inline-flex;
+    /* border-radius: 0%; */
+  }
+  .testimonial-section .carousel-control-prev img,
+  .testimonial-section .carousel-control-next img{
+    width: 5px;
+  }
+  .testi-item h3,
+  .testi-item p{
+    font-size: 18px;
+  }
+  .testi-item h3{
+    text-transform: capitalize;
+  }
+  
+  /* Responsive */
+  @media(max-width:991px){
+    .testi-img .img-box{
+        max-width: 200px;
+    }
+    .testi-img .circle{
+        height: 200px;
+        width: 200px;
+    }
+    .testi-img .img-box-inner{
+        border-radius: 0 0 100px 100px;
+    }
+    .testi-img .img-box-inner img{
+        max-width: 200px;
+    }
+  }
+  @media(max-width:767px){
+    .testi-img{
+        margin-bottom: 15px;
+    }
+  }
+
+
+
+.program-container{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+/* .testimonial-container{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+} */
+
+.programs::before, .popular::before, .testimonials::before { 
+    content: ".";
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  .popular{
+    color: white;
+  }
+
+
+.who-we-are::before, .vision::before, .mission::before, .faqs::before { 
+    content: ".";
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+
+.team::before { 
+    content: ".";
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+
+.advertisement::before, .contact-persons::before, .send-msg::before  { 
+    content: ".";
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+
+
+
+  .program-title{
+    margin-top: 3rem;
+  }
+
+ul li a{
+    color: white;
+    text-decoration-style: none;
+}
+
+
+
+
+
+
+.carousel-multi-item.v-2.product-carousel .carousel-item-right.active,
+.carousel-multi-item.v-2.product-carousel .carousel-item-next {
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%); }
+.carousel-multi-item.v-2.product-carousel .carousel-item-left.active,
+.carousel-multi-item.v-2.product-carousel .carousel-item-prev {
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%); }
+.carousel-multi-item.v-2.product-carousel .carousel-item-right,
+.carousel-multi-item.v-2.product-carousel .carousel-item-left {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0); }
+
+@media (min-width: 768px){
+.carousel-multi-item.v-2.product-carousel .carousel-item-right.active,
+.carousel-multi-item.v-2.product-carousel .carousel-item-next {
+  -webkit-transform: translateX(16.6667%);
+  -ms-transform: translateX(16.6667%);
+  transform: translateX(16.6667%); }
+.carousel-multi-item.v-2.product-carousel .carousel-item-left.active,
+.carousel-multi-item.v-2.product-carousel .carousel-item-prev {
+  -webkit-transform: translateX(-16.6667%);
+  -ms-transform: translateX(-16.6667%);
+  transform: translateX(-16.6667%); }
+.carousel-multi-item.v-2.product-carousel .carousel-item-right,
+.carousel-multi-item.v-2.product-carousel .carousel-item-left {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0); }
+}
+
+
+

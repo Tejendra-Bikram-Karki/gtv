@@ -1,0 +1,5 @@
+<?php $terms = get_the_terms( $post->ID , 'yourcustomtaxonomyhere' ); 
+                    foreach ( $terms as $term ) {
+                    echo '<a href="' . $term_link . '">' . $term->name . '</a>';
+                    } 
+                ?>
