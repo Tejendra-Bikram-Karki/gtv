@@ -12,17 +12,16 @@
             <div class="col-lg-6">
                 <div class="about_info px-lg-5">
                     <div class="section_title">
-                        <span class="sub_heading mb-2" style="color: white;">Welcome To</span>
-                        <h3 class="header2 mb-2 mt-1" style="color: white;">Galaxy 4K TV</h3>
+                        <p class="sub-heading-light mb-0">Welcome To</p>
+                        <h3 class="header-text-light mt-0">Galaxy 4K TV</h3>
                     </div>
-                    <p style="color: white;">Galaxy 4K is a Nepali language channel owned by Gorkha Media Network
+                    <p class="section-content-light py-4">Galaxy 4K is a Nepali language channel owned by Gorkha Media Network
                         Pvt. Ltd in Nepal. As the country's first 4K channel,it aims to amalgamate
                         the latest technology with premium news and entertainment content.The
                         channel intends to deliver clear, in-depth, and dependable information on
                         issues of public concern in a timely fashion along with a multitude of
                         quality entertaining content.</p>
-                    <a href="/about"><button type="button" class="btn btn-outline-danger rounded-0 px-3 mt-3 mb-2"
-                            style="color: white;">Know More</button></a>
+                    <a href="/about" class="btn-text-light"><button type="button" class="btn button-light rounded-0 px-3 py-2 mt-3 mb-2">Know More</button></a>
                 </div>
             </div>
         </div>

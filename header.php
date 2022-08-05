@@ -191,6 +191,136 @@
 
 }
 
+.network{
+    background: url(http://localhost/galaxy/wp-content/uploads/2022/08/bg.jpg), #D9D9D9;
+    background-position: center center;
+    background-size: cover;
+}
+.network-card{
+    height:180px;
+    width: 180px;
+    border: 4px solid #e11e29;
+    border-radius: 10px;
+    background: rgb(245,245,245);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.10);
+    transition: 0.5s all ease-out;
+}
+.network-card:hover{
+    background: rgb(255,255,255);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.15);
+}
+
+.network-logo{
+    height: 100px;
+    width: 100px;
+}
+
+.dm-img-box{
+    width: 316px;
+    height: 450px;
+
+}
+.dm-image{
+    height: 100%;
+    object-fit: cover;  
+    border-radius: 10px;
+}
+.dm-background-element{
+    position: absolute;
+    height: 219px;
+    width: 227px;
+    bottom: 8%;
+    right: 0;
+}
+
+
+/* Light Color*/
+
+.header-text-light{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.sub-heading-light{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.small-subheading-light{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.section-content-light{
+    font-size:16px;
+    color: #ffffff;
+}
+.section-smallcontent-light{
+    font-size:14px;
+    color: #ffffff;
+}
+.button-light{
+    background: rgba(225, 30, 41, 0);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 16px;
+    transition: 0.4s all ease-in-out;
+}
+.button-light:hover{
+    background: rgba(225, 30, 41,1);
+    border: 1px solid #E11E29;
+    color: #ffffff;
+    font-size: 16px;
+}
+.small-heading-light{
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+/* Dark Color*/
+
+.header-text-dark{
+    font-size: 40px;
+    color: #1B202B;
+    font-weight: 600;
+}
+.sub-heading-dark{
+    font-size: 22px;
+    color: #1B202B;
+    font-weight: 400;
+}
+.section-content-dark{
+    font-size:16px;
+    color: #1B202B;
+}
+.button-dark{
+    background: rgba(225, 30, 41, 0);
+    border: 1px solid #1B202B;
+    color: #1B202B;
+    font-size: 16px;
+    transition: 0.4s all ease-in-out;
+}
+.button-dark:hover{
+    background: rgba(225, 30, 41,1);
+    border: 1px solid #E11E29;
+    color: #1B202B;
+    font-size: 16px;
+}
+.small-heading-dark{
+    color:#1B202B;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
 
 
     </style>
