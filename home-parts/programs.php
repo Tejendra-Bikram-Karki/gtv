@@ -1,7 +1,7 @@
 <div class="container program-container">
     <div class="row pb-2 border-bottom ">
         <div class="col-md-10">
-            <span class="programs" style="font-size:60px;">Programs</span>
+            <p class="programs small-heading-dark">Programs</p>
         </div>
         <div class="col-md-2 d-flex flex-row-reverse ">
             <a href="/programs"><button type="button" class="btn btn-outline-danger rounded-0 mt-4 px-4">View
