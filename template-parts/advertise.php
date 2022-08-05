@@ -1,4 +1,6 @@
-<!-- Template Name: Advertisement -->
+<?php
+// Template Name: Advertisement
+?>
 
 <?php get_header(); ?>
 

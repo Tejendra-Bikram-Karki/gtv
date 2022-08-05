@@ -1,4 +1,6 @@
-<!-- Template Name: Teams -->
+<?php
+// Template Name: Teams
+?>
 
 <?php get_header(); ?>
 
