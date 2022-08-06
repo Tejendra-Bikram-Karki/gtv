@@ -23,7 +23,7 @@
 <nav class="navbar dark-background navbar-expand-lg sticky-top">
         <div class="container-fluid mx-5">
             <ul class="navbar-nav">
-                <li class="nav-item"><img src="http://localhost/galaxy/wp-content/uploads/2022/08/logo.png" height="70px" width="70px" alt=""></li>
+                <li class="nav-item"> <a href="http://localhost/galaxy"><img src="http://localhost/galaxy/wp-content/uploads/2022/08/logo.png" height="70px" width="70px" alt=""></a></li>
             </ul>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -34,13 +34,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 nav-fill  px-5" style="margin-left:auto; width: 40%;">
                     <li class="nav-item ">
-                        <a class="nav-link" aria-current="page" href="#">About</a>
+                        <a class="nav-link" aria-current="page" href="http://localhost/galaxy/about/">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Programs</a>
+                        <a class="nav-link" href="http://localhost/galaxy/programs/">Programs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">News</a>
+                        <a class="nav-link" href="http://localhost/galaxy/news/">News</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">CSR</a>
