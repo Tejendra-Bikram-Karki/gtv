@@ -4,18 +4,23 @@
 
 <?php get_header(); ?>
 
-<section class="hero-about">
-    <div class="hero-about">
-        <img src="<?php bloginfo('template_directory'); ?>/assests\img\Galaxy-TV-4K-Nepal.jpg" class="img-fluid"
-            width="100%" height="782px" style="height: 782px;" alt="">
-    </div>
-</section>
+<div class="card text-bg-dark inner-hero-section">
+  <img src="http://localhost/galaxy/wp-content/uploads/2022/08/1.jpg" class="card-img inner-hero-img" alt="...">
+  <div class="inner-hero-img-overlay"></div>
+  <div class="card-img-overlay inner-overlay-text position-absolute  text-left">
+    <p class="inner-sub-text">About Us</p>
+    <p class="inner-main-text">Galaxy 4K Television</p>
+  </div>
+</div>
 
-<div class="container my-5">
+<div class="container my-5 pb-5">
 
-    <div class="row pb-3">
-        <span class="who-we-are" style="font-size:40px;">Who We Are</span>
-        <p class="ms-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae dolorum a non architecto,
+    <div class="row pb-5 pt-5">
+        <div class="title">
+        <p><i class="fa-solid fa-circle title-icon"></i></p>
+        <p class="who-we-are small-heading-dark">Who We Are</p>
+        </div>
+        <p class="ms-4 px-4 section-content-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae dolorum a non architecto,
             placeat corporis quaerat iste excepturi numquam aperiam rerum veritatis, aspernatur accusantium ducimus quo
             impedit nesciunt neque beatae unde molestias cumque modi deserunt eos. Aliquid dolore recusandae molestias
             soluta consequuntur! Assumenda tempore enim, harum tempora, nam molestiae alias doloribus eveniet, veritatis
@@ -26,22 +31,28 @@
             ducimus mollitia itaque facilis eveniet fuga reprehenderit quos necessitatibus tenetur aut numquam ratione.
             Corporis accusamus et magnam odio sequi illo, perferendis, veritatis itaque ex quis laudantium eius
             pariatur, beatae incidunt.</p>
-        <p class="ms-4">Sit labore aspernatur itaque provident nisi totam, blanditiis commodi maxime exercitationem
+        <p class="ms-4 px-4 section-content-dark">Sit labore aspernatur itaque provident nisi totam, blanditiis commodi maxime exercitationem
             corrupti consectetur animi alias, sed nobis laudantium architecto vero eum autem dolorum. Impedit quaerat et
             reprehenderit iusto, vitae asperiores fugiat, alias harum non a ipsam officiis suscipit, dolores illum
             perferendis reiciendis commodi sed eveniet placeat. Expedita hic iusto magnam rerum laudantium quam iure
             quod modi, culpa molestiae, ab repudiandae dicta?</p>
     </div>
 
-    <div class="row pb-3">
-        <span class="vision" style="font-size:40px;">Vision</span>
-        <p class="ms-4">Sit labore aspernatur itaque provident nisi totam, blanditiis commodi maxime exercitationem
+    <div class="row pb-5">
+     <div class="title">
+        <p><i class="fa-solid fa-circle title-icon"></i></p>
+        <p class="who-we-are small-heading-dark">Vision</p>
+        </div>
+        <p class="ms-4 px-4 section-content-dark">Sit labore aspernatur itaque provident nisi totam, blanditiis commodi maxime exercitationem
             corrupti consectetur animi alias, sed nobis laudantium architecto vero eum autem dolorum.</p>
     </div>
 
-    <div class="row pb-3">
-        <span class="mission" style="font-size:40px;">Mission</span>
-        <p class="ms-4">Sit labore aspernatur itaque provident nisi totam, blanditiis commodi maxime exercitationem
+    <div class="row pb-5">
+     <div class="title">
+        <p><i class="fa-solid fa-circle title-icon"></i></p>
+        <p class="who-we-are small-heading-dark">Mission</p>
+        </div>
+        <p class="ms-4 px-4 section-content-dark">Sit labore aspernatur itaque provident nisi totam, blanditiis commodi maxime exercitationem
             corrupti consectetur animi alias, sed nobis laudantium architecto vero eum autem dolorum. Impedit quaerat et
             reprehenderit iusto, vitae asperiores fugiat, alias harum non a ipsam officiis suscipit, dolores illum
             perferendis reiciendis commodi sed eveniet placeat.</p>
@@ -50,10 +61,13 @@
 
     <!-- FAQs -->
 
-    <div class="row pb-3">
-        <span class="faqs" style="font-size:40px;">Frequently Asked Questions</span>
+    <div class="row pb-5">
+     <div class="title">
+        <p><i class="fa-solid fa-circle title-icon"></i></p>
+        <p class="who-we-are small-heading-dark">Frequently Asked Questions</p>
+        </div>
     </div>
-    <div class="accordion ms-4" id="accordionExample">
+    <div class="accordion ms-4 px-4" id="accordionExample">
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
@@ -63,7 +77,7 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample">
-                <div class="accordion-body" style="background-color: #d9d9d9;">
+                <div class="accordion-body">
                     <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
                     plugin adds the appropriate classes that we use to style each element. These classes control the
                     overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
@@ -81,7 +95,7 @@
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample">
-                <div class="accordion-body" style="background-color: #d9d9d9;">
+                <div class="accordion-body">
                     <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
                     collapse plugin adds the appropriate classes that we use to style each element. These classes
                     control the overall appearance, as well as the showing and hiding via CSS transitions. You can
@@ -100,7 +114,7 @@
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                 data-bs-parent="#accordionExample">
-                <div class="accordion-body" style="background-color: #d9d9d9;">
+                <div class="accordion-body">
                     <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
                     collapse plugin adds the appropriate classes that we use to style each element. These classes
                     control the overall appearance, as well as the showing and hiding via CSS transitions. You can

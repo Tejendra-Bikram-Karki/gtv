@@ -5,14 +5,14 @@
 <?php get_header(); ?>
 
 <!-- hero section -->
-<section>
-    <div class="hero-image">
-        <div class="hero-text">
-            <h1 style="font-size:50px">I am John Doe</h1>
-            <p>And I'm a Photographer</p>
-        </div>
-    </div>
-</section>
+<div class="card text-bg-dark inner-hero-section">
+  <img src="http://localhost/galaxy/wp-content/uploads/2022/08/1.jpg" class="card-img inner-hero-img" alt="...">
+  <div class="inner-hero-img-overlay"></div>
+  <div class="card-img-overlay inner-overlay-text position-absolute  text-left">
+    <p class="inner-sub-text">News</p>
+    <p class="inner-main-text">Latest News Updates</p>
+  </div>
+</div>
 
 
 
@@ -30,20 +30,24 @@
             if($i++<4):
             ?>
 
+       
+
+
+
         <div class="col-md-4">
-            <div class="card border-bottom">
+            <div class="card single-program-card">
+                <div class="col-md-12 single-news-image">
                 <?php the_post_thumbnail(); ?>
+                    </div>
                 <div class="card-body">
-                    <h5 class="card-title">
-                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                    </h5>
+                    <h5 class="card-title single-news-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
                     <div class="row mb-3">
-                        <div class="col-md-4">
-                            <p class="card-text"><small class="text-muted"><?php echo get_the_date(); ?></small></p>
+                        <div class="col-md-6">
+                            <p class="card-text"><small class="text-muted"><i class="fa-solid fa-clock"></i><?php echo get_the_date(); ?></small></p>
                         </div>
                     </div>
-                    <p class="card-text"><?php echo wp_trim_words(get_the_excerpt(), 200, '');?></p>
-                    <a href="#" class="view-details" style="color: red;">View Details</a>
+                    <p class="card-text single-program-content"><?php echo wp_trim_words(get_the_excerpt(), 30, '');?></p>
+                    <a href="#" class="news-read-more">Read More <i class="fa-solid fa-angles-right"></i></a>
                 </div>
             </div>
         </div>

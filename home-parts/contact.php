@@ -4,8 +4,22 @@
 
 <?php get_header(); ?>
 
-<div class="container">
-    <div class="row">
+
+<!-- hero section -->
+<div class="card text-bg-dark inner-hero-section">
+  <img src="http://localhost/galaxy/wp-content/uploads/2022/08/1.jpg" class="card-img inner-hero-img" alt="...">
+  <div class="inner-hero-img-overlay"></div>
+  <div class="card-img-overlay inner-overlay-text position-absolute  text-left">
+    <p class="inner-sub-text">Contact</p>
+    <p class="inner-main-text">Communicate with us</p>
+  </div>
+</div>
+
+
+
+
+<div class="container my-5">
+    <div class="row py-5">
         <div class="col-md-6">
             <h2>Galaxy 4K Television</h2>
             <p>Head Office, Baluwatar Kathmandu</p>
