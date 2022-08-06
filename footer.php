@@ -80,6 +80,38 @@
 
 <script src="assests/js/bootstrap.bundle.min.js"></script>
 <script src="assests/js/controls.js"></script>
+
+
+// TEstimonials section script starts here
+
+<script>
+var btn = document.getElementsByClassName("testi-btn");
+var slide = document.getElementById("slide");
+
+btn[0].onclick = function(){
+    slide.style.transform = "translateX(0px)";
+}
+
+btn[1].onclick = function(){
+    slide.style.transform = "translateX(-1200px)";
+}
+
+btn[2].onclick = function(){
+    slide.style.transform = "translateX(-2400px)";
+}
+
+btn[3].onclick = function(){
+    slide.style.transform = "translateX(-3600px)";
+}
+</script>
+
+// Testimonials section starts here
+
+
+
+
+
+
 <!-- <script>
   const myCarousel = document.getElementById('myCarousel')
   myCarousel.addEventListener('slid.bs.carousel', function () {
