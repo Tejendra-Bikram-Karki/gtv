@@ -333,7 +333,8 @@ button.accordion-button::after{
 }
 
 
-.single-program-card{
+.single-program-card,
+.single-csr-card{
     box-shadow: 0px 4px 50px rgba(27, 32, 43, 0.2);
     border: none;
 }
@@ -349,13 +350,15 @@ button.accordion-button::after{
 .fa-clock, .fa-tag{
     color: rgba(27, 32, 43,0.5);
 }
-.single-program-button{
+.single-program-button,
+.single-csr-button{
     background: #E11E29;
     color: #ffffff;
     border: 1px soilid #E11E29;
     transition: 0.2s all ease-in-out;
 }
-.single-program-button:hover{
+.single-program-button:hover,
+.single-csr-button:hover{
     background: #E11E29;
     color: #ffffff;
     border: 1px soilid #E11E29;
@@ -382,12 +385,27 @@ button.accordion-button::after{
     color: #E11E29;
     text-decoration: none;
 }
-.single-news-title a{
+.single-news-title a,
+.single-csr-title a{
     font-size: 18px;
     font-weight: 600;
     color: #1B202B;
     text-decoration: none;
 }
+
+.single-csr-image{
+    height: 308px;
+    overflow: hidden;
+}
+.single-csr-image img{
+    height: 308px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
 /* Light Color*/
 
 .header-text-light{

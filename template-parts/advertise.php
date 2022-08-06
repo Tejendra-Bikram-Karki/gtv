@@ -4,11 +4,14 @@
 
 <?php get_header(); ?>
 
-<section class="hero-about">
-    <div class="hero-about">
-        <img src="<?php bloginfo('template_directory'); ?>/assests\img\Galaxy-TV-4K-Nepal.jpg" class="img-fluid" alt="">
-    </div>
-</section>
+<div class="card text-bg-dark inner-hero-section">
+  <img src="http://localhost/galaxy/wp-content/uploads/2022/08/1.jpg" class="card-img inner-hero-img" alt="...">
+  <div class="inner-hero-img-overlay"></div>
+  <div class="card-img-overlay inner-overlay-text position-absolute  text-left">
+    <p class="inner-sub-text">About Us</p>
+    <p class="inner-main-text">Galaxy 4K Television</p>
+  </div>
+</div>
 <div class="container my-5">
 
     <div class="row pb-3">
