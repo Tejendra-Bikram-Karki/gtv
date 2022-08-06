@@ -1,4 +1,4 @@
-<div class="container program-container">
+<div class="container program-container my-5">
     <div class="row pb-2 border-bottom ">
         <div class="col-md-10">
             <p class="programs small-heading-dark">Programs</p>
