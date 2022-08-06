@@ -318,6 +318,109 @@
 
 
 
+/* Testimonial Section CSS starts here */
+
+.testi-hero{
+ 
+ height: 60vh;
+ width: 100%;
+ position: relative;
+}
+
+
+
+.slide-row{
+ display: flex;
+ width: 4800px; 
+ /* transition: 0.2s; */
+}
+
+.slide-col{
+ width: 1200px;
+ height: 400px;
+ position: relative;
+}
+
+.user-img{
+ position: absolute;
+ top: 0;
+ left: 5%;
+ height: 100%;
+}
+
+.user-img img{
+ width: 75%;
+ height: 100%;
+ border-radius: 10%;
+ object-fit: cover;
+}
+
+.user-text{
+ width: 720px;
+ height: 350px;
+ position: absolute;
+ right: 0;
+ top: 50%;
+ transform: translateY(-50%);
+ padding: 25px 45px;
+ box-sizing: border-box;
+}
+
+.user-text p{
+ font-size: 18px;
+ line-height: 24px;
+}
+
+.user-text h3{
+ margin: 35px 0 5px;
+
+}
+
+
+
+.testimonial-container{
+ width: 1200px;
+ height: 400px;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+}
+
+.indicator{
+ position: absolute;
+ right: 0%;
+ transform: translateX(-50%);
+ bottom: 0%;
+ z-index: 100;
+}
+
+.testi-btn{
+ display: inline-block;
+ height: 15px;
+ width: 15px;
+ margin: 5px;
+ border: 1px solid red;
+ border-radius: 50%;
+ cursor: pointer;
+ z-index: 100;
+}
+
+.testimonial{
+ width: 100%;
+ height: 100%;
+ overflow: hidden;
+}
+
+
+/* testimonials section css ends here */
+
+
+
+
+
+
+
 
 
 
