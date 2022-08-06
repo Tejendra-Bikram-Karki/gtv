@@ -110,6 +110,7 @@
 
         body {
             font-family: poppins;
+            background: #d9d9d9;
         }
 
         .dark-background{
@@ -403,6 +404,23 @@ button.accordion-button::after{
     object-fit: cover;
 }
 
+.team-image{
+    height: 340px;
+    width: 270px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.team-member-name{
+    font-size: 22px;
+    color: #1B202B;
+    font-weight: 600;
+}
+.team-member-post{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1b202b;
+}
 
 
 
