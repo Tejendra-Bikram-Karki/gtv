@@ -5,7 +5,7 @@
 <?php get_header(); ?>
 
 <!-- hero section -->
-<div class="card text-bg-dark inner-hero-section">
+<div class="card text-bg-dark inner-hero-section border-0">
   <img src="http://localhost/galaxy/wp-content/uploads/2022/08/1.jpg" class="card-img inner-hero-img" alt="...">
   <div class="inner-hero-img-overlay"></div>
   <div class="card-img-overlay inner-overlay-text position-absolute  text-left">
@@ -20,14 +20,14 @@
 
     <!-- Management Team -->
     <div class="management-team">
-        <div class="row pb-3">
+    <div class="row pb-3">
             <div class="col-md-12">
             <div class="title">
         <p><i class="fa-solid fa-circle title-icon"></i></p>
         <p class="small-heading-dark">Management Team</p>
         </div>
             </div>
-        </div>
+    </div>
 
 
         <!-- Team Members -->
