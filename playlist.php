@@ -29,13 +29,14 @@ $channelId = 'UC4ulcG4kfgeJ71ao5JiDZfg';
     foreach($json['items'] as $video)
         $videos[] = array('v_id' =>$video['snippet']['resourceId']['videoId'],'v_name' => $video['snippet']['title']);   
 ?>
+
 <div class="row">
 <div class="col-md-8">
       <div class="owl-carousel slide">
 		<?php foreach($videos as $video=>$value){  if(isset($video)){
            
 			echo '<div class="item-video" data-hash="'. $value['v_id'].'">
-			<a class="owl-video" href="https://youtu.be/'.$value['v_id'].'"></a>
+			<a class="owl-video" href="https://youtu.be/'.$value['v_id'].'">Hello</a>
 			</div>';
                 }
             }
