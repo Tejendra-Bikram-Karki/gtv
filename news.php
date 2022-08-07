@@ -5,7 +5,7 @@
 <?php get_header(); ?>
 
 <!-- hero section -->
-<div class="card text-bg-dark inner-hero-section">
+<div class="card text-bg-dark inner-hero-section border-0">
   <img src="http://localhost/galaxy/wp-content/uploads/2022/08/1.jpg" class="card-img inner-hero-img" alt="...">
   <div class="inner-hero-img-overlay"></div>
   <div class="card-img-overlay inner-overlay-text position-absolute  text-left">

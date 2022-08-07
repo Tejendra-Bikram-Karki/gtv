@@ -358,8 +358,17 @@ button.accordion-button::after{
     border: 1px soilid #E11E29;
     transition: 0.2s all ease-in-out;
 }
+.form-submit-button{
+    background: #E11E29;
+    color: #ffffff;
+    border: 1px soilid #E11E29;
+    padding: 10px 28px;
+    border-radius: 0px;
+    transition: 0.2s all ease-in-out;
+}
 .single-program-button:hover,
-.single-csr-button:hover{
+.single-csr-button:hover,
+.form-submit-button:hover{
     background: #E11E29;
     color: #ffffff;
     border: 1px soilid #E11E29;
@@ -376,7 +385,7 @@ button.accordion-button::after{
     object-fit: cover;
     border-radius: 6px 6px 0 0;
 }
-.news-read-more, .fa-angles-right{
+.news-read-more, .fa-angles-right, .fa-chevron-down{
     font-size: 14px;
     font-weight: 600;
     color: #E11E29;
@@ -422,6 +431,85 @@ button.accordion-button::after{
     color: #1b202b;
 }
 
+.office-name{
+    font-size: 30px;
+    font-weight: 600;
+    color: #1b202b;
+}
+.office-type{
+    font-size: 20px;
+    font-weight: 500;
+    color: #1b202b;
+    opacity: 80%;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.contact-detail-text{
+    font-size: 18px;
+    font-weight: 500;
+}
+.form-label{
+    font-size: 18px;
+    font-weight: 500;
+    color: #1b202b;
+    opacity: 80%;
+}
+.form-control,
+option{
+    height: 60px;
+    border-radius: 2px;
+    color: #1b202b;
+    font-size: 16px;
+    font-weight: 400;
+}
+.form-message{
+    height: 170px;
+}
+.form-control:focus{
+    border: 0px !important;
+    box-shadow: 0px 4px 50px rgba(27, 32, 43, 0.1);
+}
+.form-control:focus-visible{
+    border: 0px !important;
+    box-shadow: 0px 4px 50px rgba(27, 32, 43, 0.1);
+}
+.footer-logo{
+    margin-top: -30px;
+    transform: scale(0.9);
+    transition: all 0.2s ease-in-out;
+}
+.footer-logo:hover{
+    margin-top: -35px;
+    transform: scale(1);
+}
+.footer-detail-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+.footer-detail-text:hover{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+.copyright-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.8);
+}
+.copyright-text a{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
 
 
 /* Light Color*/
@@ -467,7 +555,6 @@ button.accordion-button::after{
     font-size: 30px;
     font-weight: 500;
 }
-
 
 /* Dark Color*/
 

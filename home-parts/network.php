@@ -12,17 +12,17 @@
         <div class="col-md-7  py-5">
             <div class="row network-images">
                 <div class="col-md-1"></div>
-                <div class="col-md-3">
+                <div class="col-md-3 mx-2">
                     <div class="network-card d-flex justify-content-center align-items-center">
                     <img src="<?php bloginfo('template_directory'); ?>/assests\img\logo.svg" alt="first image" class="network-logo">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 mx-2">
                 <div class="network-card d-flex justify-content-center align-items-center">
                     <img src="<?php bloginfo('template_directory'); ?>/assests\img\logo.svg" alt="first image" class="network-logo">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 mx-2">
                 <div class="network-card d-flex justify-content-center align-items-center">
                     <img src="<?php bloginfo('template_directory'); ?>/assests\img\logo.svg" alt="first image" class="network-logo">
                     </div>
