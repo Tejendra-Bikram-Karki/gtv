@@ -36,7 +36,7 @@
                 <h5>Quick Links</h5>
                 <ul class="nav flex-column mt-4">
 
-                    <li class="nav-item mb-3"><a href="#" class="footer-detail-text"><i class="fa-solid fa-chevron-right" style="color: #ef4136;"></i>Programs</a></li>
+                    <li class="nav-item mb-3"><a href="http://localhost/galaxy/program-detail/" class="footer-detail-text"><i class="fa-solid fa-chevron-right" style="color: #ef4136;"></i>Programs</a></li>
                     <li class="nav-item mb-3"><a href="http://localhost/galaxy/advertisement/" class="footer-detail-text"><i class="fa-solid fa-chevron-right"style="color: #ef4136;"></i>Advertise with Us</a></li>
                     <li class="nav-item mb-3"><a href="#" class="footer-detail-text"><i class="fa-solid fa-chevron-right"style="color: #ef4136;"></i>Privacy Policy</a></li>
                     <li class="nav-item mb-3"><a href="#" class="footer-detail-text"><i class="fa-solid fa-chevron-right"style="color: #ef4136;"></i>Send Feedback</a></li>
@@ -83,10 +83,11 @@
 </section>
 
 <script src="assests/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="assests/js/controls.js"></script>
 
 
-// TEstimonials section script starts here
+<!-- TEstimonials section script starts here -->
 
 <script>
 var btn = document.getElementsByClassName("testi-btn");
@@ -94,22 +95,38 @@ var slide = document.getElementById("slide");
 
 btn[0].onclick = function(){
     slide.style.transform = "translateX(0px)";
+    for (let i = 0; i < 4; i++) {
+        btn[i].classList.remove("active");  
+    }
+    this.classList.add("active")
 }
 
 btn[1].onclick = function(){
     slide.style.transform = "translateX(-1200px)";
+    for (let i = 0; i < 4; i++) {
+        btn[i].classList.remove("active");  
+    }
+    this.classList.add("active")
 }
 
 btn[2].onclick = function(){
     slide.style.transform = "translateX(-2400px)";
+    for (let i = 0; i < 4; i++) {
+        btn[i].classList.remove("active");  
+    }
+    this.classList.add("active")
 }
 
 btn[3].onclick = function(){
     slide.style.transform = "translateX(-3600px)";
+    for (let i = 0; i < 4; i++) {
+        btn[i].classList.remove("active");  
+    }
+    this.classList.add("active")
 }
 </script>
 
-// Testimonials section starts here
+<!-- Testimonials section starts here -->
 
 
 

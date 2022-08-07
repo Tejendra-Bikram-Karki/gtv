@@ -20,7 +20,7 @@
         <p><i class="fa-solid fa-circle title-icon"></i></p>
         <p class="who-we-are small-heading-dark">Who We Are</p>
         </div>
-        <p class="ms-4 px-4 section-content-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae dolorum a non architecto,
+        <p class="ms-4 ps-4 section-content-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae dolorum a non architecto,
             placeat corporis quaerat iste excepturi numquam aperiam rerum veritatis, aspernatur accusantium ducimus quo
             impedit nesciunt neque beatae unde molestias cumque modi deserunt eos. Aliquid dolore recusandae molestias
             soluta consequuntur! Assumenda tempore enim, harum tempora, nam molestiae alias doloribus eveniet, veritatis

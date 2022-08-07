@@ -23,6 +23,9 @@
             integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!---Owl Carousel Cdn--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <?php wp_head(); ?>
 
     <style>
@@ -105,6 +108,9 @@
             transform: translate(-50%, -50%);
             color: white;
         } */
+
+
+
 
         @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 
@@ -590,16 +596,21 @@ option{
     font-size: 30px;
     font-weight: 500;
 }
-
-
+.host-name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.host-post{
+    font-size: 18px;
+    font-weight: 400;
+}
 
 
 
 /* Testimonial Section CSS starts here */
 
 .testi-hero{
- 
- height: 60vh;
+ height: 58vh;
  width: 100%;
  position: relative;
 }
@@ -609,7 +620,7 @@ option{
 .slide-row{
  display: flex;
  width: 4800px; 
- /* transition: 0.2s; */
+ transition: all 0.5s ease-in-out;
 }
 
 .slide-col{
@@ -628,7 +639,7 @@ option{
 .user-img img{
  width: 75%;
  height: 100%;
- border-radius: 10%;
+ border-radius: 10px;
  object-fit: cover;
 }
 
@@ -644,15 +655,21 @@ option{
 }
 
 .user-text p{
- font-size: 18px;
- line-height: 24px;
+ font-size: 16px;
+ font-weight: 500;
+ color: rgba(27, 32, 43,0.8);
 }
 
 .user-text h3{
+    font-size: 18px;
+    font-weight: 600;
  margin: 35px 0 5px;
 
 }
-
+.user-text .testi-position{
+    font-size: 16px;
+    font-weight: 600;
+}
 
 
 .testimonial-container{
@@ -674,10 +691,20 @@ option{
 
 .testi-btn{
  display: inline-block;
- height: 15px;
- width: 15px;
+ height: 16px;
+ width: 16px;
  margin: 5px;
- border: 1px solid red;
+ border: 3px solid rgba(225, 30, 41,0.4);
+ border-radius: 50%;
+ cursor: pointer;
+ z-index: 100;
+}
+.testi-btn.active{
+ display: inline-block;
+ height: 16px;
+ width: 16px;
+ margin: 5px;
+ border: 3px solid rgba(225, 30, 41,1);
  border-radius: 50%;
  cursor: pointer;
  z-index: 100;
