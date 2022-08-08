@@ -30,6 +30,8 @@ register_nav_menus(
 function add_theme_scripts() {
     wp_enqueue_style( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css', 'v5.2.x', 'all');
     // wp_enqueue_style( 'style', get_stylesheet_uri(),array(),'1.0.0' );
+    wp_enqueue_style( 'owl-style', get_stylesheet_directory_uri().'/owl/assets/owl.carousel.min.css',array(),'0.4' );
+    wp_enqueue_script( 'owl-js', get_stylesheet_directory_uri() . '/owl/owl.carousel.min.js', array(), '1.3', true );
     
     wp_enqueue_script( 'popper', 'https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js', false, 1.1, true);
     wp_enqueue_script( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js', false, 1.1, true);

@@ -41,7 +41,17 @@
                 </div>
                
             </div>
+            <div class="host-detail mt-2">
+                    <h4 class="host-name">Follow us on</h4>
+                    <div class="col-md-3 pt-2 d-flex justify-content-between">
+                        <img src="http://localhost/galaxy/wp-content/uploads/2022/08/facebook.png" alt="">
+                        <img src="http://localhost/galaxy/wp-content/uploads/2022/08/Twitter.png" alt="">
+                        <img src="http://localhost/galaxy/wp-content/uploads/2022/08/Linkedin.png" alt="">
+                        <img src="http://localhost/galaxy/wp-content/uploads/2022/08/yt.png" alt="">
+                    </div>
+                </div>
         </div>
+
         <div class="col-md-6">
             <form>
                 <div class="mb-3">
