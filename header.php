@@ -612,7 +612,11 @@ option{
     font-size: 16px;
     color: #1B202B;
 }
-
+.side-media{
+    height: 480px;
+    overflow: hidden;
+    overflow-Y: scroll;
+}
 
 
 
@@ -837,6 +841,50 @@ option{
 }
 
 
+/*Popular Carousel CSS Starts */
+   header p .popular-span{
+			font-size: 50px;
+		    margin: 0 5px;
+		    cursor: pointer;
+		    color: #ffffff;
+		    width: 30px;
+		    height: 30px;
+		    display: inline-block;
+		    line-height: 19px;
+		    text-align: center;
+		    border-radius: 3px;
+		}
+    
+		header p .popular-span:hover{
+			background: #222;
+    		color: white;
+		}
+		.popular-section{
+			width: 100%;
+			margin: auto;
+			display: flex;
+			align-items: center;
+			overflow-x: auto;
+		}
+		section::-webkit-scrollbar{
+			display: none;
+		}
+		.popular{
+			min-width: 25%;
+			height: 90%;
+			background: whitesmoke;
+			margin:  0 20px  0 0;
+			position: relative;
+			left: 0;
+			transition: 0.5s;
+		}
+		@media (max-width: 768px) {
+			.popular {
+				min-width: 49%;
+				margin:  0 10px  0 0;
+			}
+		
+		}
 
 
 

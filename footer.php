@@ -260,12 +260,49 @@ $("#close").click(function() {
     $("#main").removeClass("scroll-none");
 });
 
-var play_btn = document.querySelector(".owl-video-play-icon");
-play_btn.addEventListener('click',
-()=>{
-document.querySelectorAll(".owl-nav").style.opacity="0";
-}
-);
+
+
+
+// Popular Section
+
+let span = document.getElementsByClassName('popular-span');
+	let popular = document.getElementsByClassName('popular')
+	let popular_page = Math.ceil(popular.length/4);
+	let l = 0;
+	let movePer = 25.34;
+	let maxMove = 203;
+	// mobile_view	
+	let mob_view = window.matchMedia("(max-width: 768px)");
+	if (mob_view.matches)
+	 {
+	 	movePer = 50.36;
+	 	maxMove = 504;
+	 }
+
+	let right_mover = ()=>{
+		l = l + movePer;
+		if (popular == 1){l = 0; }
+		for(const i of popular)
+		{
+			if (l > maxMove){l = l - movePer;}
+			i.style.left = '-' + l + '%';
+		}
+
+	}
+	let left_mover = ()=>{
+		l = l - movePer;
+		if (l<=0){l = 0;}
+		for(const i of popular){
+			if (popular_page>1){
+				i.style.left = '-' + l + '%';
+			}
+		}
+	}
+	span[1].onclick = ()=>{right_mover();}
+	span[0].onclick = ()=>{left_mover();}
+
+
+
 
 
 </script>
