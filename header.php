@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php bloginfo('name'); ?> <?php wp_title(); ?> <?php if(is_front_page()) {echo "|" ; bloginfo('description');} ?>  </title>
+    <!-- sharethis code -->
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62f0b91535087c0019c37183&product=inline-share-buttons" async="async"></script>
+    <!-- sharethis code -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assests\css\style.css ?>"> -->
@@ -128,6 +131,10 @@
             text-decoration: none;
         }
 
+        .card-title a{
+            text-decoration: none;
+        }
+
         .nav-link,
         span {
             color: rgba(255,255,255,0.8);
@@ -207,6 +214,11 @@
     height: 100%;
     object-fit: cover;
 }
+
+.single-page-hero{
+    height: 20vh;
+}
+
 .inner-overlay-text{
     left: 40%;
     top: 65%;
@@ -718,6 +730,12 @@ option{
 
 
 /* testimonials section css ends here */
+
+
+.attachment-post-thumbnail{
+    width: 100%;
+    height: auto;
+}
 
 
 

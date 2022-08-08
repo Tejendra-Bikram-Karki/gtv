@@ -3,7 +3,7 @@
                 <div class="col-md-12">
                 <div class="title">
                 <p><i class="fa-solid fa-circle title-icon"></i></p>
-                <p class="small-heading-dark">Advertisement Information</p>
+                <p class="small-heading-dark">Testimonials</p>
                 </div>
     </div>
     </div>
