@@ -10,8 +10,8 @@
         </div>
         <div class="col-md-2 d-flex flex-row-reverse ">
         <p>
-				<span class="popular-span">&#139;</span>
-				<span class="popular-span">&#155;</span>
+				<span class="popular-span" style="font-size: 30px;">&#139;</span>
+				<span class="popular-span ps-5" style="font-size: 30px;">&#155;</span>
 			</p>
         </div>
     </div>

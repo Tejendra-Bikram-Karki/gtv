@@ -870,8 +870,8 @@ option{
 			display: none;
 		}
 		.popular{
-			min-width: 25%;
-			height: 90%;
+			min-width: 310px;
+            height: 210px;
 			background: whitesmoke;
 			margin:  0 20px  0 0;
 			position: relative;
@@ -886,8 +886,9 @@ option{
 		
 		}
 
-
-
+        .ytp-title {
+    display: none!important;
+}
 
 
 
