@@ -4,14 +4,14 @@
         <div class="col-md-10">
         <div class="title">
         <p><i class="fa-solid fa-circle title-icon"></i></p>
-        <p class="who-we-are small-heading-light">Programs</p>
+        <p class="who-we-are small-heading-light">Popular</p>
         </div>
            
         </div>
         <div class="col-md-2 d-flex flex-row-reverse ">
         <p>
-				<span class="popular-span" style="font-size: 30px;">&#139;</span>
-				<span class="popular-span ps-5" style="font-size: 30px;">&#155;</span>
+				<span class="popular-span" style="font-size: 30px; cursor: pointer;">&#139;</span>
+				<span class="popular-span ps-5" style="font-size: 30px; cursor: pointer;">&#155;</span>
 			</p>
         </div>
     </div>

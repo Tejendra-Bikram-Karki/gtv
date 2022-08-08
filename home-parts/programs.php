@@ -16,84 +16,25 @@
 
 
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-5 py-5">
+
+            <?php if( have_rows('program_section' ,23) ):
+            while( have_rows('program_section' ,23) ): the_row(); 
+            ?>
+
         <div class="col">
             <div class="card text-bg-dark h-100 single-program">
-                <img src="http://localhost/galaxy/wp-content/uploads/2022/08/1.jpg" class="card-img" alt="..." />
+                <img src="<?php the_sub_field('program_image', 23); ?>" class="card-img" alt="..." />
                 <div class="overlay-small"></div>
                 <div class="card-img-overlay text-white program-text-content">
                     <h5 class="program-card-title">
-                    Comedy Night
+                    <?php the_sub_field('program_name', 23); ?>
                     </h5>
-                    <p class="program-category">Comedy</p>
+                    <p class="program-category"><?php the_sub_field('program_category', 23); ?></p>
                 </div>
             </div>
         </div>
 
-        <div class="col">
-            <div class="card text-bg-dark h-100 single-program">
-                <img src="http://localhost/galaxy/wp-content/uploads/2022/08/1.jpg" class="card-img" alt="..." />
-                <div class="overlay-small"></div>
-                <div class="card-img-overlay text-white program-text-content">
-                    <h5 class="program-card-title">
-                    Comedy Night
-                    </h5>
-                    <p class="program-category">Comedy</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card text-bg-dark h-100 single-program">
-                <img src="http://localhost/galaxy/wp-content/uploads/2022/08/1.jpg" class="card-img" alt="..." />
-                <div class="overlay-small"></div>
-                <div class="card-img-overlay text-white program-text-content">
-                    <h5 class="program-card-title">
-                    Comedy Night
-                    </h5>
-                    <p class="program-category">Comedy</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card text-bg-dark h-100 single-program">
-                <img src="http://localhost/galaxy/wp-content/uploads/2022/08/1.jpg" class="card-img" alt="..." />
-                <div class="overlay-small"></div>
-                <div class="card-img-overlay text-white program-text-content">
-                    <h5 class="program-card-title">
-                    Comedy Night
-                    </h5>
-                    <p class="program-category">Comedy</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card text-bg-dark h-100 single-program">
-                <img src="http://localhost/galaxy/wp-content/uploads/2022/08/1.jpg" class="card-img" alt="..." />
-                <div class="overlay-small"></div>
-                <div class="card-img-overlay text-white program-text-content">
-                    <h5 class="program-card-title">
-                    Comedy Night
-                    </h5>
-                    <p class="program-category">Comedy</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card text-bg-dark h-100 single-program">
-                <img src="http://localhost/galaxy/wp-content/uploads/2022/08/1.jpg" class="card-img" alt="..." />
-                <div class="overlay-small"></div>
-                <div class="card-img-overlay text-white program-text-content">
-                    <h5 class="program-card-title">
-                    Comedy Night
-                    </h5>
-                    <p class="program-category">Comedy</p>
-                </div>
-            </div>
-        </div>
-
+        <?php endwhile; endif; ?>
 
     </div>
 </div>

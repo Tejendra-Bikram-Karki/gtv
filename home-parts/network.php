@@ -11,22 +11,29 @@
         <div class="col-md-1  py-5"></div>
         <div class="col-md-7  py-5">
             <div class="row network-images">
+
+                <?php if( have_rows('galaxy_network' ,23) ):
+                while( have_rows('galaxy_network' ,23) ): the_row(); 
+                ?>
+
                 <div class="col-md-1"></div>
                 <div class="col-md-3 mx-2">
                     <div class="network-card d-flex justify-content-center align-items-center">
-                    <img src="<?php bloginfo('template_directory'); ?>/assests\img\logo.svg" alt="first image" class="network-logo">
+                    <img src="<?php the_sub_field('network1',23);?>" alt="first image" class="network-logo">
                     </div>
                 </div>
                 <div class="col-md-3 mx-2">
                 <div class="network-card d-flex justify-content-center align-items-center">
-                    <img src="<?php bloginfo('template_directory'); ?>/assests\img\logo.svg" alt="first image" class="network-logo">
+                    <img src="<?php the_sub_field('network2',23);?>" alt="first image" class="network-logo">
                     </div>
                 </div>
                 <div class="col-md-3 mx-2">
                 <div class="network-card d-flex justify-content-center align-items-center">
-                    <img src="<?php bloginfo('template_directory'); ?>/assests\img\logo.svg" alt="first image" class="network-logo">
+                    <img src="<?php the_sub_field('network3',23);?>" alt="first image" class="network-logo">
                     </div>
                 </div>
+
+                <?php endwhile; endif; ?>
             </div>
         </div>
     </div>
