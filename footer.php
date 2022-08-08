@@ -192,7 +192,83 @@ $('#myModal button').click(function() {
 
 <!--Owl-->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+<script>
+$(document).ready(function() {
+
+$('.slide').owlCarousel({
+    loop: true,
+    margin: 0,
+    nav: true,
+    dots: false,
+    lazyLoad: false,
+    autoplayHoverPause: true,
+    autoplay: 1, // time for slides changes
+    smartSpeed: 1000, // duration of change of 1 slide
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
+})
+$('.minislide').owlCarousel({
+    loop: true,
+    margin: 15,
+    nav: true,
+    dots: true,
+    lazyLoad: false,
+    autoplayHoverPause: true,
+    autoplay: 1, // time for slides changes
+    smartSpeed: 1000, // duration of change of 1 slide
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 3
+        }
+    }
+})
+$(".owl-next").html('<i class="fa-solid fa-circle-chevron-right"></i>');
+$(".owl-prev").html('<i class="fa-solid fa-circle-chevron-left"></i>');
+
+});
+
+$("#menu-click").click(function() {
+    $("#sidenav").toggleClass("menu-show");
+    $(".blacklayer").toggleClass("menu-show");
+    $("#main").toggleClass("scroll-none");
+});
+$(".blacklayer").click(function() {
+    $("#sidenav").removeClass("menu-show");
+    $(".blacklayer").removeClass("menu-show");
+    $("#main").removeClass("scroll-none");
+});
+$("#close").click(function() {
+    $("#sidenav").removeClass("menu-show");
+    $(".blacklayer").removeClass("menu-show");
+    $("#main").removeClass("scroll-none");
+});
+
+var play_btn = document.querySelector(".owl-video-play-icon");
+play_btn.addEventListener('click',
+()=>{
+document.querySelectorAll(".owl-nav").style.opacity="0";
+}
+);
+
+
+</script>
 
 <?php wp_footer(); ?>
 
