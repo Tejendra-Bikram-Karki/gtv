@@ -47,7 +47,7 @@
                         </div>
                     </div>
                     <p class="card-text single-program-content"><?php echo wp_trim_words(get_the_excerpt(), 30, '');?></p>
-                    <a href="#" class="news-read-more">Read More <i class="fa-solid fa-angles-right"></i></a>
+                    <a href="<?php the_permalink();?>" class="news-read-more">Read More <i class="fa-solid fa-angles-right"></i></a>
                 </div>
             </div>
         </div>

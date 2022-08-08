@@ -1,6 +1,3 @@
-<div class="mt-3">
-<h5 class="cat-title" style="text-align: center;
-    padding: 12px 0px; background-color: #029F00; color:white; "><span class="inner-cat px-3"> Techkagaj Video </span></h5>
 <?php 
     $baseUrl = 'https://www.googleapis.com/youtube/v3/';
  $apiKey = 'AIzaSyAzrqFl74B7x2E1i0LxNLvwonNzlAEMTto';
@@ -36,7 +33,9 @@ $channelId = 'UC4ulcG4kfgeJ71ao5JiDZfg';
 		<?php foreach($videos as $video=>$value){  if(isset($video)){
            
 			echo '<div class="item-video" data-hash="'. $value['v_id'].'">
-			<a class="owl-video" href="https://youtu.be/'.$value['v_id'].'">Hello</a>
+			<a class="owl-video" href="https://youtu.be/'.$value['v_id'].'">
+Hello
+            </a>
 			</div>';
                 }
             }
