@@ -16,6 +16,7 @@
 
 <div class="container my-5 pt-5">
     <?php $args = array('cat'=>10, 'showposts'=>4); 
+    // post_type and post_status for custom post types
   $i = 0; 
   $result = new WP_Query($args); 
   while ($result -> have_posts() ) : $result -> the_post(); 
