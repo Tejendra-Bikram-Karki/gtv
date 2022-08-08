@@ -375,6 +375,10 @@ button.accordion-button::after{
 
 }
 
+.single-thumbnail-csr{
+    height:200px;
+}
+
 
 .single-program-card,
 .single-csr-card{

@@ -49,7 +49,7 @@
                         </div>
                         <p class="card-text single-csr-content"><?php echo wp_trim_words(get_the_excerpt(), 30, '');?>
                         </p>
-                        <a href="#" class="btn single-csr-button rounded-0 px-3 mt-3">View Details</a>
+                        <a href="<?php the_permalink(); ?>" class="btn single-csr-button rounded-0 px-3 mt-3">View Details</a>
 
                     </div>
                 </div>
