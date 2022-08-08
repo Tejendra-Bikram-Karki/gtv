@@ -174,6 +174,30 @@
             #navbarSupportedContent {
                 padding-bottom: 20px;
             }
+
+            .slide-row{
+                display: flex;
+                width: 1600px; 
+                transition: all 0.5s ease-in-out;
+                }
+
+            .slide-col{
+                width: 400px;
+                height: 400px;
+                position: relative;
+                }
+
+
+
+
+
+
+
+
+
+
+
+
         }
 
 .main-hero-img{
