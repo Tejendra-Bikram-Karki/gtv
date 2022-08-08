@@ -174,6 +174,30 @@
             #navbarSupportedContent {
                 padding-bottom: 20px;
             }
+
+            .slide-row{
+                display: flex;
+                width: 1600px; 
+                transition: all 0.5s ease-in-out;
+                }
+
+            .slide-col{
+                width: 400px;
+                height: 400px;
+                position: relative;
+                }
+
+
+
+
+
+
+
+
+
+
+
+
         }
 
 .main-hero-img{
@@ -351,6 +375,10 @@ button.accordion-button::after{
 
 }
 
+.single-thumbnail-csr{
+    height:200px;
+}
+
 
 .single-program-card,
 .single-csr-card{
@@ -422,7 +450,9 @@ button.accordion-button::after{
 }
 
 .single-csr-image{
-    height: 308px;
+    /* height: 308px; */
+    width: 100%;
+    height: 100%;
     overflow: hidden;
 }
 .single-csr-image img{
