@@ -7,7 +7,7 @@
 
 <!-- hero section -->
 <div class="card text-bg-dark inner-hero-section border-0">
-  <img src="http://localhost/galaxy/wp-content/uploads/2022/08/1.jpg" class="card-img inner-hero-img" alt="...">
+  <img src="<?php the_field('contact_hero_image',46 ); ?>" class="card-img inner-hero-img" alt="...">
   <div class="inner-hero-img-overlay"></div>
   <div class="card-img-overlay inner-overlay-text position-absolute  text-left">
     <p class="inner-sub-text">Contact</p>
@@ -23,24 +23,34 @@
         <div class="col-md-6 d-flex flex-column justify-content-center">
             <h2 class="office-name">Galaxy 4K Television</h2>
             <p class="office-type">Head Office</p>
+
+
             <div class=" contact-details">
+
+                    <?php if(have_rows('contact_details',46 )):
+                    while(have_rows('contact_details',46 )): the_row();
+                    ?>
               
                 <div class="contact-item contact-location">
                 <img src="http://localhost/galaxy/wp-content/uploads/2022/08/pin.png" alt="">
-                <p class="ps-4 pt-3 contact-detail-text">Kathmandu Metropolitan City -03 <br> Baluwatar, Kathmandu</p>
+                <p class="ps-4 pt-3 contact-detail-text"><?php the_sub_field('main_address' ,46); ?><br><?php the_sub_field('street_address' ,46); ?></p>
                 </div>
 
                 <div class="contact-item contact-location">
                 <img src="http://localhost/galaxy/wp-content/uploads/2022/08/phone.png" alt="">
-                <p class="ps-4 pt-3 contact-detail-text">+977-15970177</p>
+                <p class="ps-4 pt-3 contact-detail-text"><?php the_sub_field('phone' ,46); ?></p>
                 </div>
 
                 <div class="contact-item contact-location">
                 <img src="http://localhost/galaxy/wp-content/uploads/2022/08/mail.png" alt="">
-                <p class="ps-4 pt-3 contact-detail-text">info@g4ktv.com</p>
+                <p class="ps-4 pt-3 contact-detail-text"><?php the_sub_field('email' ,46); ?></p>
                 </div>
+
+                    <?php endwhile; endif; ?>
                
             </div>
+
+
             <div class="host-detail mt-2">
                     <h4 class="host-name">Follow us on</h4>
                     <div class="col-md-3 pt-2 d-flex justify-content-between">
