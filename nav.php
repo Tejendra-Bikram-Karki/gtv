@@ -43,7 +43,7 @@
                         <a class="nav-link" href="http://localhost/galaxy/news/">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost/galaxy/csr/">CSR</a>
+                        <a class="nav-link" href="http://localhost/galaxy/csr1/">CSR</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="http://localhost/galaxy/team/">Team</a>

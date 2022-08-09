@@ -17,7 +17,7 @@
     <?php get_template_part('home-parts/about'); ?>
     <?php get_template_part('home-parts/network'); ?>
     <?php get_template_part('home-parts/dmessage'); ?>
-    <?php get_template_part('home-parts/programs'); ?>
+    <?php get_template_part('home-parts/program'); ?>
     <?php get_template_part('home-parts/popular'); ?>
     <?php get_template_part('home-parts/testimonials'); ?>
     <?php get_template_part('home-parts/test'); ?>
