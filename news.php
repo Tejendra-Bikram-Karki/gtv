@@ -30,9 +30,6 @@
             if($i++<4):
             ?>
 
-       
-
-
 
         <div class="col-md-4">
             <div class="card single-program-card">
