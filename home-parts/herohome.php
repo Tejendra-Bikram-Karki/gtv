@@ -1,6 +1,3 @@
-
-
-
 <div class="card text-bg-dark main-hero-section border-0">
   <img src="http://localhost/galaxy/wp-content/uploads/2022/08/1.jpg" class="card-img main-hero-img" alt="...">
   <div class="main-hero-img-overlay"></div>

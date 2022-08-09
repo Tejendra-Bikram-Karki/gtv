@@ -3,7 +3,7 @@
  $args = array('showposts'=>7); 
   $result = new WP_Query($args); 
   while ($result -> have_posts() ) : $result -> the_post(); 
-  ?>
+?>
 
    
 <div class="card">

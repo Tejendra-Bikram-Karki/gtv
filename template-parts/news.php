@@ -16,7 +16,7 @@
 
 
 
-<!-- programs cards -->
+<!-- news cards -->
 
 <div class="container news-container my-5 py-5">
 
@@ -28,7 +28,7 @@
             $result = new WP_Query($args); 
             while ($result -> have_posts() ) : $result -> the_post(); 
             if($i++<4):
-            ?>
+        ?>
 
        
 

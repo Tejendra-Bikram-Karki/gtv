@@ -2,9 +2,10 @@
 <div class="row related mt-4 mb-5 pb-5">
 <?php
 
-$related = get_posts( array( 'category__in' => wp_get_post_categories($post->ID), 'numberposts' => 3, 'post__not_in' => array($post->ID) ) );
-if( $related ) foreach( $related as $post ) {
-setup_postdata($post); ?>
+  $related = get_posts( array( 'category__in' => wp_get_post_categories($post->ID), 'numberposts' => 3, 'post__not_in' => array($post->ID) ) );
+  if( $related ) foreach( $related as $post ) {
+  setup_postdata($post); 
+?>
 
   <div class="col-md-4">
     <div class="card h-100">

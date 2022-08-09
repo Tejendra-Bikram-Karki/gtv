@@ -4,14 +4,15 @@
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-<div class="page-title"><?php the_title(); ?></div>
+  <div class="page-title"><?php the_title(); ?></div>
+
 <?php 
-$args = array('cat'=>2, 'showposts'=>4); 
+  $args = array('cat'=>2, 'showposts'=>4); 
   $i = 0; 
   $result = new WP_Query($args); 
   while ($result -> have_posts() ) : $result -> the_post(); 
   if($i++<1):
-  ?>
+?>
 
 
 <div class="card mb-3">

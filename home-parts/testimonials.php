@@ -10,7 +10,7 @@
 </div>
 
 
-    <div class="testi-hero mb-5">
+<div class="testi-hero mb-5">
 
 
 
