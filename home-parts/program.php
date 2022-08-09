@@ -45,11 +45,11 @@
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-5 py-5">
 
             <?php 
-            // $catData = get_queried_object();
+            $term =  get_queried_object();
             $args = array(
                 'post_type'=>'programs', 
                 'post_status'=>'publish', 
-                'showposts'=>6
+                'showposts'=>4
                 
             );
             // post_type and post_status for custom post types
@@ -67,7 +67,7 @@
                     <h5 class="program-card-title">
                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> 
                     </h5>
-                    <p class="program-category">Category</p>
+                    <p class="program-category"><?php echo $term->name; ?></p>
                 </div>
             </div>
         </div>
