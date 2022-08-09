@@ -12,10 +12,10 @@
             $json = json_decode(file_get_contents($url), true);
 
             $playlist = $json['items'][0]['contentDetails']['relatedPlaylists']['uploads'];
-
+            $playid = the_field('watch_now');
             $params = [
                 'part'=> 'snippet',
-                'playlistId' => 'PL6j_c0Ky6NyFMxjsFoectdyoIOHCXw_7o',
+                'playlistId' => $playid,
                 'maxResults'=> '10',
                 'key'=> $apiKey
             ];

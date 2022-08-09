@@ -10,8 +10,8 @@
         </div>
         <div class="col-md-2 d-flex flex-row-reverse ">
         <p>
-				<span class="popular-span" ><img src="http://localhost/galaxy/wp-content/uploads/2022/08/Left-Nav-Btn.png" alt="" srcset=""></span>
-				<span class="popular-span ps-2" ><img src="http://localhost/galaxy/wp-content/uploads/2022/08/Right-Nav-Btn.png" alt="" srcset=""></span>
+				<span class="popular-span" style="cursor: pointer;" ><img src="http://localhost/galaxy/wp-content/uploads/2022/08/Left-Nav-Btn.png" alt="" srcset=""></span>
+				<span class="popular-span ps-2" style="cursor: pointer;" ><img src="http://localhost/galaxy/wp-content/uploads/2022/08/Right-Nav-Btn.png" alt="" srcset=""></span>
 
 			</p>
         </div>

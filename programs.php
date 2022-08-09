@@ -52,6 +52,7 @@
                         Details</a>
                 </div>
             </div>
+            
         </div>
 
         <?php endif; endwhile;  wp_reset_postdata(); ?>
