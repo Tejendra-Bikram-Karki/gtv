@@ -13,12 +13,15 @@ $channelId = 'UC4ulcG4kfgeJ71ao5JiDZfg';
 
     $playlist = $json['items'][0]['contentDetails']['relatedPlaylists']['uploads'];
 
+    $playId = get_field('watch_now');
+
     $params = [
         'part'=> 'snippet',
-        'playlistId' => 'PL6j_c0Ky6NyFMxjsFoectdyoIOHCXw_7o',
+        'playlistId' => $playId,
         'maxResults'=> '10',
         'key'=> $apiKey
     ];
+
     $url = $baseUrl . 'playlistItems?' . http_build_query($params);
     $json = json_decode(file_get_contents($url), true);
 
